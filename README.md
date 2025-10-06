@@ -21,7 +21,7 @@ KPIs, sales by Category and Sub-Category, monthly sales trends, and shipping bre
 
 Preview: (V1)
 
-![alt text](image.png)
+![alt text](Screenshots/image.png)
 
 Version 2 — Interactivity upgrade
 
@@ -29,9 +29,44 @@ Added drill-through to “Item Details”, report page tooltips, dropdown slicer
 
 Previews: (V2)
 
-![alt text](image-1.png)
+![alt text](Screenshots/image-2.png)
 
-i![alt text](image-2.png)
+Version 3 — Distribution chart added
 
-![alt text](image-3.png)
+Added a distribution/driver visualization in addition to V2 features (for example, a decomposition/distribution page or distribution chart on Sub-Category).
 
+![alt text](Screenshots/image-4.png)
+
+images/v3_distribution.png
+
+Files
+
+Retail-Sales-Dashboard_v1.pbix — Version 1 baseline dashboard.
+
+PowerBi-Sales-AnalysisVersion2.pbix — Version 2 with drill-through, tooltips, dropdown slicers.
+
+PowerBi-Sales-AnalysisVersion3.pbix — Version 3 with distribution chart.
+
+Usage
+
+Download and install Power BI Desktop.
+
+Clone this repository with LFS enabled:
+
+git lfs install && git clone <repo-url> && cd <repo-folder> && git lfs pull
+
+Open the desired .pbix (File > Open) and interact with slicers, drill-through, and tooltips.
+
+What’s New by Version
+
+V1
+
+Baseline KPIs and visuals for categories, sub-categories, shipping modes, and month trends.
+
+V2
+
+Drill-through details page with Back button, report page tooltips, dropdown slicers via Field Parameters (Dim/Metric Selectors).
+
+V3
+
+Distribution/driver visualization added to analyze spread or contributions across sub-categories/ship modes.
