@@ -31,21 +31,6 @@ Previews: (V2)
 
 ![alt text](Screenshots/image-2.png)
 
-Version 3 — Distribution chart added
-
-Added a distribution/driver visualization in addition to V2 features (for example, a decomposition/distribution page or distribution chart on Sub-Category).
-
-![alt text](Screenshots/image-4.png)
-
-images/v3_distribution.png
-
-Files
-
-Retail-Sales-Dashboard_v1.pbix — Version 1 baseline dashboard.
-
-PowerBi-Sales-AnalysisVersion2.pbix — Version 2 with drill-through, tooltips, dropdown slicers.
-
-PowerBi-Sales-AnalysisVersion3.pbix — Version 3 with distribution chart.
 
 Usage
 
@@ -67,6 +52,3 @@ V2
 
 Drill-through details page with Back button, report page tooltips, dropdown slicers via Field Parameters (Dim/Metric Selectors).
 
-V3
-
-Distribution/driver visualization added to analyze spread or contributions across sub-categories/ship modes.
